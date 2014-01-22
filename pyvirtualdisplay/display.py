@@ -54,4 +54,4 @@ class Display(AbstractDisplay):
     @property
     def _cmd(self):
         self._obj.display = self.display
-        return self._obj._cmd
+        return map(str, self._obj._cmd)
