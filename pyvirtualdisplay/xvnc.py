@@ -4,7 +4,7 @@ import logging
 
 log = logging.getLogger(__name__)
 
-PROGRAM = 'vncserver'
+PROGRAM = 'Xvnc'
 URL = None
 PACKAGE = 'tightvncserver'
 
